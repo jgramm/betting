@@ -1,0 +1,21 @@
+# 01/19/20 22:02:53, , Betting Pros, Fanduel, DraftKings, BetMGM
+visitor, Titans, 270, 280, 280, 275
+home, Chiefs, -345, -340, -335, -333
+end game
+visitor, Packers, 290, 120, 300, 300
+home, 49ers, -375, -138, -360, -385
+end game
+# 01/19/20 22:03:10, , Betting Pros, Fanduel, DraftKings, BetMGM
+visitor, Titans, 270, 280, 280, 275
+home, Chiefs, -345, -340, -335, -333
+end game
+visitor, Packers, 290, 120, 300, 300
+home, 49ers, -375, -138, -360, -385
+end game
+# 01/19/20 22:15:53, , Betting Pros, Fanduel, DraftKings, BetMGM
+visitor, Heat, -109, -114, -109, -110
+home, Spurs, -109, -102, -109, -110
+end game
+visitor, Pacers, 235, 235, 235, -115
+home, Nuggets, -109, -290, -286, -105
+end game
