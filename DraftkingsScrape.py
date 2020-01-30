@@ -21,10 +21,14 @@ def parse_team_column(child):
             team_score = team_info.find('span', class_='event-cell__score')
             
             team_names.append(team_name.contents[0])
-            team_scores.append(team_score.contents[0])
-        
         except:
             team_names.append(None)
+
+        # TODO: THIS FIX IS UGLY AND MAY BE NECESSARY FOR THE OTHER FUNCTIONS
+        # FIGURE OUT HOW TO DO THIS BETTER
+        try:
+            team_scores.append(team_score.contents[0])
+        except:
             team_scores.append(None)
     
     return team_names, team_scores
