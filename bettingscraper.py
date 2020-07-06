@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 url = 'https://www.bettingpros.com/nba/odds/moneyline/'
 page = requests.get(url)
 
+# Beautiful soup is a package that parses html
 soup = BeautifulSoup(page.content, 'html.parser')
 tbody = soup.find('tbody', class_='odds-table__tbody')
 
